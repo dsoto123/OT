@@ -1,0 +1,468 @@
+
+.cabecera {
+    background: linear-gradient(135deg, rgb(247, 247, 247) 50%, rgb(247, 247, 247) 50%, rgb(222, 222, 222) 100%, rgb(224, 217, 217) 100%);
+   /* box-shadow: 0px 8px 5px 0px rgba(0,0,0,0.35);
+    margin-bottom: 12px; fondo sobresaliente*/
+}
+
+.superior {
+    /*background-color: #196535;*/
+    color:#c3c0c2;
+
+}
+.superior a {
+    color: #c3c0c2;
+    text-decoration: none;
+}
+.redesociales {
+text-align: center; 
+margin-bottom: 10px;
+
+}
+.intranet{
+    text-align: center;
+    font-weight: 900px;
+}
+i.fas.fa-users {
+    color: #007bff;
+}
+.menu{
+background: ;
+
+}
+
+.menu nav.navbar.navbar-expand-lg.navbar-light {
+    background-color: ; /*color del fondo del menu interno*/
+}
+
+.navbar-nav.ml-auto li>a {
+    letter-spacing: px;
+    color: #ccc; /*color del fondo del menu interno*/
+    font-weight: 600;
+    text-decoration: none; /*en wordpress*/
+}
+
+/*hover menu*/
+
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+    color: #115A2D;
+}
+.nav-item:hover {
+
+        border-bottom: 2px solid #115A2D;  
+        
+}
+
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active {
+    color: #bd2d22; /*en boostrap*/ 
+}
+/*menu link*/
+.navbar-light .navbar-nav .nav-link {
+    color: #3787C6; /*en boostrap*/ 
+}
+
+#jssor_1 {
+    box-shadow: 0px 8px 5px 0px rgba(0,0,0,0.35);
+}
+.nuevo {
+    background-color: #fbfbfa;
+    color:;
+    padding: 5px;
+}
+.nuevo p {
+    margin-left: 5px;
+    margin-right:5px;
+    color:#000;
+}
+
+
+.geo{ 
+   background: url(../images/vgeoportal.png) no-repeat ;
+   background-size: 150px 150px;
+    height: 150px;
+    width: 150px;
+}
+.geo:hover{ 
+   background: url(../images/geoportal.png) no-repeat ;
+   background-size: 150px 150px;
+    height: 150px;
+    width: 150px;
+}
+.publi{
+   background: url(../images/vpublicaciones.png) no-repeat ;
+   background-size: 150px 150px;
+    height: 150px;
+    width: 150px;
+}
+.publi:hover{
+   background: url(../images/publicaciones.png) no-repeat ;
+   background-size: 150px 150px;
+    height: 150px;
+    width: 150px;
+}
+.moni{
+   background: url(../images/vsmonitoreo.png) no-repeat ;
+   background-size: 150px 150px;
+    height: 150px;
+    width: 150px;
+}
+.moni:hover{
+   background: url(../images/smonitoreo.png) no-repeat ;
+   background-size: 150px 150px;
+    height: 150px;
+    width: 150px;
+}
+.nuevo a {
+    margin-top: 10px;
+}
+
+.circuloInicio {
+   
+   
+}
+.circuloInicio a {
+margin-top: 10px;
+}
+
+.fas.fa-map-marker-alt.fa-3x:hover {
+    color:  #589806;
+}
+.fab.fa-readme.fa-3x:hover{
+    color:  #589806;
+}
+.fas.fa-laptop.fa-3x:hover{
+    color:  #589806;
+}
+.sinformacion{
+    color:#000;
+}
+.fondocuerpo {
+    background-color: #fbfbfa;
+}
+.textoizquierda {
+    background-color: #115A2D;
+    margin-bottom: 15px;
+    height: 100px;
+    text-align: ;
+    padding: 20px;
+}
+.textoizquierda:hover{
+    background-color: #3787C6;
+    margin-bottom: 15px;
+    height: 100px;
+    text-align: ;
+    padding: 20px;
+}
+.dimportante {
+   margin-top:11px;
+}
+.dimportante a{
+    color: #fff;
+}
+.dimportante a:hover{
+    text-decoration: none;
+}
+.textoizquierda  a {
+display:block; width:100%; height:100%;
+}
+.herramientas {
+    background-color: #fbfbfa;
+}
+
+.vimapas {
+    background-color: #fbfbfa;
+}
+.pieprincipal {
+    background: #222222;
+}
+     /*fondo del footer principal*/
+.btn.btn-primary {
+    background-color: #115A2D;
+    border: 1px solid #115A2D;
+}
+.btn.btn-primary:hover {
+    background-color: #3787C6;
+    border: 1px solid #3787C6;
+}
+.iconos {
+    background-color: ;
+    width: 45px;
+}
+
+.fondobanner {
+    background-color: #fff;
+    border-top-style: solid;
+    border-top-color: #fff;
+    border-right-style: solid;
+    border-right-color: #fff;
+    border-left: solid;
+    border-left-color: #fff;
+    border-width: 5px;
+    /* background: linear-gradient(15deg, #19b7f0 10%, #19e0ff 30%, #64e4fd 51%, #6febff 100%);*/
+    
+}
+.bannerprincipal{
+	width: 100%;
+    margin-bottom: 5px;
+}
+#minibanner{
+    height: 120px;
+    background:linear-gradient(to right, #2d6b89 0%, #00BCD4 51%, #226d91 100%);
+    margin-bottom: 5px;
+    margin-left: -25px;
+    text-align: center;
+    /* background: #29abe2;*/
+}
+#minibanner img{
+   margin-top: 25px;
+   width: 60%;
+}
+
+#minibar4{
+    height: 115px;
+    background: linear-gradient(to right, #3787C6 0%, #18dfff 51%, #03A9F4 100%);
+    margin-bottom: 5px;
+    margin-left: -25px;
+    /* background: #a8384e; */
+}
+#minibar4 img{
+    margin-top: 10px;
+    width: 40%;    
+}
+
+#minibar5{
+    height: 115px;
+    /* background: linear-gradient(to right, #03A9F4 0%, #18dfff 51%, #03A9F4 100%); */
+    margin-bottom: 5px;
+    margin-left: -25px;
+    background: #20c997;
+}
+
+#minibar5 img{
+    margin-top: 15px;
+    width: 40%;    
+}
+
+#minibanner3{
+    height: 120px;
+   background:linear-gradient(to right, #2d6b89 0%, #00BCD4 51%, #226d91 100%); 
+    margin-bottom: 5px;
+    margin-left: -25px;
+     /* background: #d09a03;*/
+}
+#minibanner3 img{
+   margin-top: 25px;
+   width: 60%;
+}
+
+body {
+    font-size: 17px;
+    background:#83A0A4;
+    font-family:'Raleway','sans-serif'; 
+}
+
+.fondocuerpo img{
+    width: 100%;
+    margin-top: 5px;
+}
+
+
+.columnaizquierda {
+    
+    margin-top: 10px;
+}
+.columnaizquierda h5{
+    
+}
+.videos {
+    margin-top: 10px;
+}
+.horadias{
+    margin-top: 10px;
+}
+.horario {
+    background-color: #1b6032;
+    color: #fff;
+    padding: 10px;
+}
+h2.card-title {
+    color:  #1b6032;
+
+
+}
+.fondoficinas li{
+    list-style: none;
+    margin-left: 5px;
+
+}
+.fondoficinas h4{
+    padding: 5px;
+}
+.card-img-top1{
+    filter: grayscale(100%);
+ 
+-webkit-filter: grayscale(100%);
+ 
+transition:filter 0.1s;
+ 
+-webkit-transition:-webkit-filter 0.5s;
+
+}
+.card-img-top1:hover{
+    filter: grayscale(0);
+ 
+-webkit-filter: grayscale(0);
+}
+.titulo {
+    /*border: solid;
+    border-color: #118ca7; sirve para poner fondo al titulo del cuerpo*/
+}
+.titulo div span{
+    letter-spacing: 1.5px;
+    color: #3787C6;
+    font-weight: 900;
+    font-size: 2.0rem;
+    padding: 50px;
+}
+.cuerpo{
+    background-color: #fbfbfa;
+}
+
+.prepie
+{
+    background-color: #fbfbfa;
+}
+.curvo{
+
+}
+.imgRotator {
+    display: block;
+    position: relative;
+    left: 0;
+    top: 126px;
+    width: 100%;
+    height: 335px;
+    text-align: center;
+    overflow: hidden;
+    z-index: 1;
+}
+.presentacion .col-md-4{
+    margin-bottom: 25px;
+}
+
+.box-one {
+    height: 210px;
+    background: #6ef9b7;
+    padding: 0 35px;
+    color: #066789;
+    font-size: 28px;
+    line-height: 1.3;
+}
+.box-dos {
+    
+    background: var(--blue);
+    padding: 0 35px;
+    color: #f3f6f7;
+    font-size: 28px;
+    line-height: 1.3
+}
+.box-description {
+    
+}
+
+.box-internal-content{
+    color:#fff;
+}
+.box-two
+{
+    padding-left: 0;
+    padding-right: 0;
+    display: table-cell;
+    vertical-align: middle;
+    float: none;
+}
+.box-blue {
+    background: #036b85;
+    padding: 15px;
+}
+.box-purple {
+    background: #06b8d9;
+    padding: 15px;
+}
+.list-pie{
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.pieot {
+
+    margin-top: 10px;
+    color:#fff;
+
+}
+.pieot li {
+    list-style: none;
+    color: #fff;
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+
+}
+@media (max-width: 992px)
+{
+.cabecera {
+    background:#f7f7f7;
+
+}
+.logoot{
+    text-align:  center;
+}
+.logogrj{
+    text-align: center;
+}
+.fondocuerpo img{
+    width: 50%;
+    margin-top: 20px;
+    text-align: center;
+}
+#minibanner{
+    height: 120px;  
+    background: #29abe2;
+    margin-bottom: 5px;
+    margin-left: 0px;
+}
+#minibanner img{
+   margin-top: 25px;
+   width: 45%;
+}
+#minibanner3{
+    height: 120px;  
+    background: #d09a03;
+    margin-bottom: 5px;
+   margin-left: 0px;
+}
+#minibanner3 img{
+   margin-top: 25px;
+   width: 45%;
+}
+#minibar4{
+    height: 115px;
+    background: #a8384e;
+    margin-bottom: 5px;
+    margin-left: 0px;   
+}
+#minibar5{
+    height: 115px;
+    background: #34b09a;
+    margin-bottom: 5px;
+    margin-left: 0px;  
+    }
+#minibar5 img{
+    margin-top: 15px;
+    width: 15%;    
+}
+#minibar4 img{
+    margin-top: 15px;
+    width: 15%;    
+}
+
+}
